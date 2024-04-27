@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF1551EC2BC9EB3D00B2A3D9 /* Trueno-wml2.otf in Resources */ = {isa = PBXBuildFile; fileRef = FF1551EA2BC9EB3D00B2A3D9 /* Trueno-wml2.otf */; };
+		FF1551ED2BC9EB3D00B2A3D9 /* TruenoBlack-mBYV.otf in Resources */ = {isa = PBXBuildFile; fileRef = FF1551EB2BC9EB3D00B2A3D9 /* TruenoBlack-mBYV.otf */; };
+		FF4461802BC9AA65006491AE /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44617F2BC9AA65006491AE /* Color+Extension.swift */; };
+		FF877B912BDC9622003A8304 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF877B902BDC9622003A8304 /* SignupView.swift */; };
+		FF94C23B2BC7418A001B1881 /* DiscoverMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94C23A2BC7418A001B1881 /* DiscoverMusicView.swift */; };
+		FF94C23D2BC7427E001B1881 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94C23C2BC7427E001B1881 /* AccountView.swift */; };
+		FF94C2422BC7540B001B1881 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94C2412BC7540B001B1881 /* LoginPage.swift */; };
+		FF94C2442BC755C6001B1881 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94C2432BC755C6001B1881 /* AuthViewModel.swift */; };
+		FF94C2462BC75733001B1881 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF94C2452BC75733001B1881 /* GoogleService-Info.plist */; };
+		FF94C2492BC757CB001B1881 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FF94C2482BC757CB001B1881 /* FirebaseAnalytics */; };
+		FF94C24B2BC757CB001B1881 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = FF94C24A2BC757CB001B1881 /* FirebaseAppCheck */; };
+		FF94C24D2BC757CB001B1881 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FF94C24C2BC757CB001B1881 /* FirebaseAuth */; };
+		FF94C24F2BC757CB001B1881 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = FF94C24E2BC757CB001B1881 /* FirebaseCrashlytics */; };
 		FFFD5F6D2BBF454900609018 /* CratedigApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD5F6C2BBF454900609018 /* CratedigApp.swift */; };
 		FFFD5F6F2BBF454900609018 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD5F6E2BBF454900609018 /* ContentView.swift */; };
 		FFFD5F712BBF454C00609018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFD5F702BBF454C00609018 /* Assets.xcassets */; };
@@ -14,6 +27,8 @@
 		FFFD5F7E2BBF454C00609018 /* CratedigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD5F7D2BBF454C00609018 /* CratedigTests.swift */; };
 		FFFD5F882BBF454C00609018 /* CratedigUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD5F872BBF454C00609018 /* CratedigUITests.swift */; };
 		FFFD5F8A2BBF454C00609018 /* CratedigUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD5F892BBF454C00609018 /* CratedigUITestsLaunchTests.swift */; };
+		FFFD5F9A2BBF928600609018 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD5F992BBF928600609018 /* SongModel.swift */; };
+		FFFD5F9C2BBF92C700609018 /* SpotifyRecommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD5F9B2BBF92C700609018 /* SpotifyRecommendations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF1551EA2BC9EB3D00B2A3D9 /* Trueno-wml2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trueno-wml2.otf"; sourceTree = "<group>"; };
+		FF1551EB2BC9EB3D00B2A3D9 /* TruenoBlack-mBYV.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TruenoBlack-mBYV.otf"; sourceTree = "<group>"; };
+		FF44617F2BC9AA65006491AE /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		FF877B902BDC9622003A8304 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		FF94C23A2BC7418A001B1881 /* DiscoverMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMusicView.swift; sourceTree = "<group>"; };
+		FF94C23C2BC7427E001B1881 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		FF94C2412BC7540B001B1881 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		FF94C2432BC755C6001B1881 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		FF94C2452BC75733001B1881 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FFFD5F692BBF454900609018 /* Cratedig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cratedig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFD5F6C2BBF454900609018 /* CratedigApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CratedigApp.swift; sourceTree = "<group>"; };
 		FFFD5F6E2BBF454900609018 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +68,9 @@
 		FFFD5F832BBF454C00609018 /* CratedigUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CratedigUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFD5F872BBF454C00609018 /* CratedigUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CratedigUITests.swift; sourceTree = "<group>"; };
 		FFFD5F892BBF454C00609018 /* CratedigUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CratedigUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFFD5F992BBF928600609018 /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		FFFD5F9B2BBF92C700609018 /* SpotifyRecommendations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyRecommendations.swift; sourceTree = "<group>"; };
+		FFFD5FA12BBF9A8300609018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF94C24B2BC757CB001B1881 /* FirebaseAppCheck in Frameworks */,
+				FF94C24F2BC757CB001B1881 /* FirebaseCrashlytics in Frameworks */,
+				FF94C24D2BC757CB001B1881 /* FirebaseAuth in Frameworks */,
+				FF94C2492BC757CB001B1881 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +102,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF1551E12BC9E4AC00B2A3D9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FF1551EA2BC9EB3D00B2A3D9 /* Trueno-wml2.otf */,
+				FF1551EB2BC9EB3D00B2A3D9 /* TruenoBlack-mBYV.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FF44617E2BC9AA36006491AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF44617F2BC9AA65006491AE /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FF877B8E2BDC95E1003A8304 /* Account View */ = {
+			isa = PBXGroup;
+			children = (
+				FF877B8F2BDC9609003A8304 /* Onboarding */,
+			);
+			path = "Account View";
+			sourceTree = "<group>";
+		};
+		FF877B8F2BDC9609003A8304 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FF94C2412BC7540B001B1881 /* LoginPage.swift */,
+				FF877B902BDC9622003A8304 /* SignupView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		FFFD5F602BBF454900609018 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +159,14 @@
 		FFFD5F6B2BBF454900609018 /* Cratedig */ = {
 			isa = PBXGroup;
 			children = (
+				FF1551E12BC9E4AC00B2A3D9 /* Fonts */,
+				FF44617E2BC9AA36006491AE /* Extensions */,
+				FF94C2452BC75733001B1881 /* GoogleService-Info.plist */,
+				FFFD5FA12BBF9A8300609018 /* Info.plist */,
 				FFFD5F6C2BBF454900609018 /* CratedigApp.swift */,
-				FFFD5F6E2BBF454900609018 /* ContentView.swift */,
+				FFFD5F962BBF46C800609018 /* Model */,
+				FFFD5F972BBF46D000609018 /* ViewModel */,
+				FFFD5F982BBF46DE00609018 /* Views */,
 				FFFD5F702BBF454C00609018 /* Assets.xcassets */,
 				FFFD5F722BBF454C00609018 /* Preview Content */,
 			);
@@ -127,6 +198,42 @@
 			path = CratedigUITests;
 			sourceTree = "<group>";
 		};
+		FFFD5F962BBF46C800609018 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD5F992BBF928600609018 /* SongModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FFFD5F972BBF46D000609018 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD5F9D2BBF944600609018 /* Account */,
+				FFFD5F9B2BBF92C700609018 /* SpotifyRecommendations.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FFFD5F982BBF46DE00609018 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF877B8E2BDC95E1003A8304 /* Account View */,
+				FFFD5F6E2BBF454900609018 /* ContentView.swift */,
+				FF94C23A2BC7418A001B1881 /* DiscoverMusicView.swift */,
+				FF94C23C2BC7427E001B1881 /* AccountView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FFFD5F9D2BBF944600609018 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				FF94C2432BC755C6001B1881 /* AuthViewModel.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +250,12 @@
 			dependencies = (
 			);
 			name = Cratedig;
+			packageProductDependencies = (
+				FF94C2482BC757CB001B1881 /* FirebaseAnalytics */,
+				FF94C24A2BC757CB001B1881 /* FirebaseAppCheck */,
+				FF94C24C2BC757CB001B1881 /* FirebaseAuth */,
+				FF94C24E2BC757CB001B1881 /* FirebaseCrashlytics */,
+			);
 			productName = Cratedig;
 			productReference = FFFD5F692BBF454900609018 /* Cratedig.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +328,9 @@
 				Base,
 			);
 			mainGroup = FFFD5F602BBF454900609018;
+			packageReferences = (
+				FF94C2472BC757CB001B1881 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FFFD5F6A2BBF454900609018 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +349,9 @@
 			files = (
 				FFFD5F742BBF454C00609018 /* Preview Assets.xcassets in Resources */,
 				FFFD5F712BBF454C00609018 /* Assets.xcassets in Resources */,
+				FF1551ED2BC9EB3D00B2A3D9 /* TruenoBlack-mBYV.otf in Resources */,
+				FF1551EC2BC9EB3D00B2A3D9 /* Trueno-wml2.otf in Resources */,
+				FF94C2462BC75733001B1881 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +376,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF94C23D2BC7427E001B1881 /* AccountView.swift in Sources */,
+				FF4461802BC9AA65006491AE /* Color+Extension.swift in Sources */,
+				FFFD5F9A2BBF928600609018 /* SongModel.swift in Sources */,
+				FFFD5F9C2BBF92C700609018 /* SpotifyRecommendations.swift in Sources */,
+				FF877B912BDC9622003A8304 /* SignupView.swift in Sources */,
 				FFFD5F6F2BBF454900609018 /* ContentView.swift in Sources */,
+				FF94C2442BC755C6001B1881 /* AuthViewModel.swift in Sources */,
+				FF94C2422BC7540B001B1881 /* LoginPage.swift in Sources */,
+				FF94C23B2BC7418A001B1881 /* DiscoverMusicView.swift in Sources */,
 				FFFD5F6D2BBF454900609018 /* CratedigApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +531,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -425,11 +552,14 @@
 				DEVELOPMENT_TEAM = JCL982F3T2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cratedig/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cratedig;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +567,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nobosoftware.Cratedig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,11 +588,14 @@
 				DEVELOPMENT_TEAM = JCL982F3T2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cratedig/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cratedig;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +603,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nobosoftware.Cratedig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,6 +729,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF94C2472BC757CB001B1881 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF94C2482BC757CB001B1881 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF94C2472BC757CB001B1881 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FF94C24A2BC757CB001B1881 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF94C2472BC757CB001B1881 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		FF94C24C2BC757CB001B1881 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF94C2472BC757CB001B1881 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FF94C24E2BC757CB001B1881 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF94C2472BC757CB001B1881 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FFFD5F612BBF454900609018 /* Project object */;
 }
