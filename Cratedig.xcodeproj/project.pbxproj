@@ -11,6 +11,8 @@
 		FF1551ED2BC9EB3D00B2A3D9 /* TruenoBlack-mBYV.otf in Resources */ = {isa = PBXBuildFile; fileRef = FF1551EB2BC9EB3D00B2A3D9 /* TruenoBlack-mBYV.otf */; };
 		FF4461802BC9AA65006491AE /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44617F2BC9AA65006491AE /* Color+Extension.swift */; };
 		FF877B912BDC9622003A8304 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF877B902BDC9622003A8304 /* SignupView.swift */; };
+		FF877B932BF2ADA1003A8304 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF877B922BF2ADA1003A8304 /* CardView.swift */; };
+		FF877B9A2BF2C279003A8304 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF877B992BF2C279003A8304 /* LogoView.swift */; };
 		FF94C23B2BC7418A001B1881 /* DiscoverMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94C23A2BC7418A001B1881 /* DiscoverMusicView.swift */; };
 		FF94C23D2BC7427E001B1881 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94C23C2BC7427E001B1881 /* AccountView.swift */; };
 		FF94C2422BC7540B001B1881 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94C2412BC7540B001B1881 /* LoginPage.swift */; };
@@ -53,6 +55,8 @@
 		FF1551EB2BC9EB3D00B2A3D9 /* TruenoBlack-mBYV.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TruenoBlack-mBYV.otf"; sourceTree = "<group>"; };
 		FF44617F2BC9AA65006491AE /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		FF877B902BDC9622003A8304 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		FF877B922BF2ADA1003A8304 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FF877B992BF2C279003A8304 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		FF94C23A2BC7418A001B1881 /* DiscoverMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMusicView.swift; sourceTree = "<group>"; };
 		FF94C23C2BC7427E001B1881 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		FF94C2412BC7540B001B1881 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
@@ -134,6 +138,14 @@
 				FF877B902BDC9622003A8304 /* SignupView.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		FF877B982BF2C266003A8304 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF877B992BF2C279003A8304 /* LogoView.swift */,
+			);
+			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
 		FFFD5F602BBF454900609018 = {
@@ -218,10 +230,12 @@
 		FFFD5F982BBF46DE00609018 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FF877B982BF2C266003A8304 /* Supporting Views */,
 				FF877B8E2BDC95E1003A8304 /* Account View */,
 				FFFD5F6E2BBF454900609018 /* ContentView.swift */,
 				FF94C23A2BC7418A001B1881 /* DiscoverMusicView.swift */,
 				FF94C23C2BC7427E001B1881 /* AccountView.swift */,
+				FF877B922BF2ADA1003A8304 /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -377,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF94C23D2BC7427E001B1881 /* AccountView.swift in Sources */,
+				FF877B9A2BF2C279003A8304 /* LogoView.swift in Sources */,
 				FF4461802BC9AA65006491AE /* Color+Extension.swift in Sources */,
 				FFFD5F9A2BBF928600609018 /* SongModel.swift in Sources */,
 				FFFD5F9C2BBF92C700609018 /* SpotifyRecommendations.swift in Sources */,
@@ -385,6 +400,7 @@
 				FF94C2442BC755C6001B1881 /* AuthViewModel.swift in Sources */,
 				FF94C2422BC7540B001B1881 /* LoginPage.swift in Sources */,
 				FF94C23B2BC7418A001B1881 /* DiscoverMusicView.swift in Sources */,
+				FF877B932BF2ADA1003A8304 /* CardView.swift in Sources */,
 				FFFD5F6D2BBF454900609018 /* CratedigApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
